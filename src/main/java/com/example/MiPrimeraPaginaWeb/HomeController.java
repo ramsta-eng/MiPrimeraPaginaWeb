@@ -21,6 +21,6 @@ public class HomeController {
 
     @GetMapping("/valor")
     public String getMethodName(@RequestParam int num1) {
-        return "Hola, el valor de el numero era: "+num1;
+        return "Hola, el valor de el numero es: "+num1;
     }
 }
