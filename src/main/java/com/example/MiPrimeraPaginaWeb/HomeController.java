@@ -20,7 +20,7 @@ public class HomeController {
         return "Adios a todos";
     }
 
-    @GetMapping("/valor")
+    @GetMapping("/valores")
     public String getMethodName(@RequestParam int num1) {
         return "Hola, el valor de el numero ess: "+num1;
     }
