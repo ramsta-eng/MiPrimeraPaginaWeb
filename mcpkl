@@ -1,0 +1,22 @@
+[1mdiff --git a/src/main/java/com/example/MiPrimeraPaginaWeb/HomeController.java b/src/main/java/com/example/MiPrimeraPaginaWeb/HomeController.java[m
+[1mindex fa03285..6d03b01 100644[m
+[1m--- a/src/main/java/com/example/MiPrimeraPaginaWeb/HomeController.java[m
+[1m+++ b/src/main/java/com/example/MiPrimeraPaginaWeb/HomeController.java[m
+[36m@@ -14,14 +14,13 @@[m [mpublic class HomeController {[m
+         return "Hola a todos";[m
+     }[m
+ [m
+[31m-    @GetMapping("/hola")    [m
+[31m-    public String holaa(){[m
+[31m-        return "Hola a todos";[m
+[32m+[m[32m    @GetMapping("/adios")[m[41m    [m
+[32m+[m[32m    public String adioss(){[m
+[32m+[m[32m        return "Adios a todos";[m
+     }[m
+ [m
+     @GetMapping("/valor")[m
+     public String getMethodName(@RequestParam int num1) {[m
+         return "Hola, el valor de el numero es: "+num1;[m
+     }[m
+[31m-    [m
+ }[m
